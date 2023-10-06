@@ -8,7 +8,6 @@ public class Employee {
     private String lastName;
     private LocalDate employmentDate;
     private Double yearlySalary;
-
     private PensionPlan pensionPlan;
 
     public Employee(Long employeeId, String firstName, String lastName, LocalDate employmentDate, Double yearlySalary,
