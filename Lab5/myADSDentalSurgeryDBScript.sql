@@ -87,10 +87,23 @@ VALUES
 
 SELECT * FROM Dentists ORDER BY LastName ASC;
  
-SELECT A.AppointmentID, A.AppointmentDateTime, A.Status, P.FirstName AS PatientFirstName, P.LastName AS PatientLastName
-FROM Appointments A
-INNER JOIN Patients P ON A.PatientID = P.PatientID
-WHERE A.DentistID = 1;
+SELECT 
+    A.AppointmentID,
+    A.AppointmentDateTime,
+    P.PatientID,
+    P.FirstName AS PatientFirstName,
+    P.LastName AS PatientLastName,
+    P.ContactPhone AS PatientContactPhone,
+    P.Email AS PatientEmail,
+    P.DateOfBirth AS PatientDateOfBirth
+FROM 
+    Appointments AS A
+JOIN 
+    Dentists AS D ON A.DentistID = D.DentistID
+JOIN 
+    Patients AS P ON A.PatientID = P.PatientID
+WHERE 
+    D.DentistID = 1;
 
 SELECT A.AppointmentID, A.AppointmentDateTime, A.Status, D.FirstName AS DentistFirstName, D.LastName AS DentistLastName, P.FirstName AS PatientFirstName, P.LastName AS PatientLastName
 FROM Appointments A
@@ -98,7 +111,21 @@ INNER JOIN Dentists D ON A.DentistID = D.DentistID
 INNER JOIN Patients P ON A.PatientID = P.PatientID
 WHERE A.SurgeryLocation = 1;
  
-SELECT A.AppointmentID, A.AppointmentDateTime, A.Status, D.FirstName AS DentistFirstName, D.LastName AS DentistLastName
-FROM Appointments A
-INNER JOIN Dentists D ON A.DentistID = D.DentistID
-WHERE A.PatientID = 1 AND DATE(A.AppointmentDateTime) = '2023-10-15';
+SELECT
+    A.AppointmentID,
+    A.AppointmentDateTime,
+    D.FirstName AS DentistFirstName,
+    D.LastName AS DentistLastName,
+    S.Name AS SurgeryLocationName,
+    A.Status
+FROM
+    Appointments AS A
+JOIN
+    Patients AS P ON A.PatientID = P.PatientID
+JOIN
+    Dentists AS D ON A.DentistID = D.DentistID
+JOIN
+    Surgeries AS S ON A.SurgeryLocation = S.SurgeryID
+WHERE
+    P.PatientID = 1
+    AND DATE(A.AppointmentDateTime) = '2023-10-15'; 
