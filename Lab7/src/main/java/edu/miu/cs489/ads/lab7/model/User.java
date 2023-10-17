@@ -1,4 +1,4 @@
-package edu.miu.apsd.ads.lab6.model;
+package edu.miu.cs489.ads.lab7.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -9,14 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="elibrary" />
         <module name="Lab5" />
-        <module name="Lab6" />
+        <module name="JpaLab" />
+        <module name="Lab7" />
         <module name="EmployeePensionSystem" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Lab6" options="-parameters" />
+      <module name="JpaLab" options="-parameters" />
+      <module name="Lab7" options="-parameters" />
       <module name="elibrary" options="-parameters" />
     </option>
   </component>
