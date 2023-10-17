@@ -42,14 +42,12 @@ public class ProductMgmtApp {
         System.out.println("Printed in JSON format");
         System.out.println("[");
         for (int i = 0; i < allProductList.size(); i++) {
-            System.out.println("{\"productId\": "+ allProductList.get(i).getProductID()+
-                    " \"name\":\""+allProductList.get(i).getName()+"\""+
-                    " \"dateSupplied\":\""+allProductList.get(i).getDateSupplied()+"\""+
-                    " \"quantityInStock\":\""+allProductList.get(i).getQuantityInStock()+"\""+
-                    " \"unitPrice\":\""+allProductList.get(i).getUnitPrice()+"\" }");
+
+            System.out.println(allProductList.get(i).toJSON_FormatBlock());
         }
         System.out.println("]");
     }
+
 
     public void printInXML(){
         System.out.println("--------------------------------");

@@ -55,5 +55,23 @@ public class Product {
     public void setUnitPrice(String unitPrice) {
         this.unitPrice = unitPrice;
     }
+
+
+
+
+    public String toJSON_FormatBlock(){
+        return String.format(
+                """
+                {
+                    "productID":%s,
+                    "name":%s,
+                    "dateSupplied":%s,
+                    "quantityInStock":%s,
+                    "unitPrice":%s
+                }
+                """
+                ,getProductID(),getName(),getDateSupplied(),getQuantityInStock(),getUnitPrice()
+        );
+    }
 }
 
