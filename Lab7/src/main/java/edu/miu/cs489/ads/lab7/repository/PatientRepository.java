@@ -14,4 +14,15 @@ public interface PatientRepository extends JpaRepository<Patient, Long> {
 
     @Query(value = "select p from Patient p")
     List<Patient> getMyCustomListOfPatient();
+
+    List<Patient> findPatientByFirstNameContainingOrLastNameContainingOrContactPhoneContainingOrEmailContainingOrAddress_StreetAddressContainingOrAddress_cityContainingOrAddress_stateContaining(String a, String b,String c, String d,String e,String f, String g);
+
+            /*
+             private Long addressId;
+    private String streetAddress;
+    private String city;
+    private String state;
+    private Integer zipcode;
+             */
+
 }
