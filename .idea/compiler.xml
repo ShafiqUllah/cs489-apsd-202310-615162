@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="elibrary" />
+        <module name="Lab9" />
         <module name="Lab5" />
         <module name="JpaLab" />
         <module name="Lab7" />
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="JpaLab" options="-parameters" />
       <module name="Lab7" options="-parameters" />
+      <module name="Lab9" options="-parameters" />
       <module name="elibrary" options="-parameters" />
     </option>
   </component>
