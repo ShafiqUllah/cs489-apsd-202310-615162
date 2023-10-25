@@ -1,8 +1,9 @@
 package miu.edu.apsd.ads.lab11.lab11app.service.impl;
 
-import edu.miu.apsd.ads.lab9.model.Surgery;
-import edu.miu.apsd.ads.lab9.repository.SurgeryRepository;
-import edu.miu.apsd.ads.lab9.service.SurgeryService;
+
+import miu.edu.apsd.ads.lab11.lab11app.model.Surgery;
+import miu.edu.apsd.ads.lab11.lab11app.repository.SurgeryRepository;
+import miu.edu.apsd.ads.lab11.lab11app.service.SurgeryService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

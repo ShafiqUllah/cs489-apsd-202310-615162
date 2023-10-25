@@ -1,6 +1,7 @@
 package miu.edu.apsd.ads.lab11.lab11app.service.impl;
 
-import edu.miu.apsd.ads.lab9.repository.UserRepository;
+
+import miu.edu.apsd.ads.lab11.lab11app.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

@@ -1,6 +1,7 @@
 package miu.edu.apsd.ads.lab11.lab11app.repository;
 
-import edu.miu.apsd.ads.lab9.model.User;
+
+import miu.edu.apsd.ads.lab11.lab11app.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,8 +1,10 @@
 package miu.edu.apsd.ads.lab11.lab11app.service;
 
-import edu.miu.apsd.ads.lab9.dto.patient.PatientResponseWithAddress;
-import edu.miu.apsd.ads.lab9.exception.PatientNotFoundException;
-import edu.miu.apsd.ads.lab9.model.Patient;
+
+
+import miu.edu.apsd.ads.lab11.lab11app.dto.patient.PatientResponseWithAddress;
+import miu.edu.apsd.ads.lab11.lab11app.exception.PatientNotFoundException;
+import miu.edu.apsd.ads.lab11.lab11app.model.Patient;
 
 import java.util.List;
 

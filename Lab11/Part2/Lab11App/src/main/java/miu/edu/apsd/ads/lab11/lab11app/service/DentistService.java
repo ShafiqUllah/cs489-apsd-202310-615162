@@ -1,6 +1,8 @@
 package miu.edu.apsd.ads.lab11.lab11app.service;
 
-import edu.miu.apsd.ads.lab9.model.Dentist;
+
+
+import miu.edu.apsd.ads.lab11.lab11app.model.Dentist;
 
 import java.util.List;
 

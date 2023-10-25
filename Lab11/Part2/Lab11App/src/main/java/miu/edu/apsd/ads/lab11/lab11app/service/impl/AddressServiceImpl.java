@@ -1,10 +1,11 @@
 package miu.edu.apsd.ads.lab11.lab11app.service.impl;
 
-import edu.miu.apsd.ads.lab9.dto.address.AddressResponseWithPatient;
-import edu.miu.apsd.ads.lab9.dto.patient.PatientResponse;
-import edu.miu.apsd.ads.lab9.model.Address;
-import edu.miu.apsd.ads.lab9.repository.AddressRepository;
-import edu.miu.apsd.ads.lab9.service.AddressService;
+
+import miu.edu.apsd.ads.lab11.lab11app.dto.address.AddressResponseWithPatient;
+import miu.edu.apsd.ads.lab11.lab11app.dto.patient.PatientResponse;
+import miu.edu.apsd.ads.lab11.lab11app.model.Address;
+import miu.edu.apsd.ads.lab11.lab11app.repository.AddressRepository;
+import miu.edu.apsd.ads.lab11.lab11app.service.AddressService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

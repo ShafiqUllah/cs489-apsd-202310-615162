@@ -1,6 +1,7 @@
 package miu.edu.apsd.ads.lab11.lab11app.repository;
 
-import edu.miu.apsd.ads.lab9.model.Patient;
+
+import miu.edu.apsd.ads.lab11.lab11app.model.Patient;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

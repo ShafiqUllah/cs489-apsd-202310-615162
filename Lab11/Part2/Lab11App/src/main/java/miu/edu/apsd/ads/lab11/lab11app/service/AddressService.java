@@ -1,7 +1,9 @@
 package miu.edu.apsd.ads.lab11.lab11app.service;
 
-import edu.miu.apsd.ads.lab9.dto.address.AddressResponseWithPatient;
-import edu.miu.apsd.ads.lab9.model.Address;
+
+
+import miu.edu.apsd.ads.lab11.lab11app.dto.address.AddressResponseWithPatient;
+import miu.edu.apsd.ads.lab11.lab11app.model.Address;
 
 import java.util.List;
 

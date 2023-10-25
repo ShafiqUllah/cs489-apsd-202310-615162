@@ -1,8 +1,9 @@
 package miu.edu.apsd.ads.lab11.lab11app.service.impl;
 
-import edu.miu.apsd.ads.lab9.model.Appointment;
-import edu.miu.apsd.ads.lab9.repository.AppointmentRepository;
-import edu.miu.apsd.ads.lab9.service.AppointmentService;
+
+import miu.edu.apsd.ads.lab11.lab11app.model.Appointment;
+import miu.edu.apsd.ads.lab11.lab11app.repository.AppointmentRepository;
+import miu.edu.apsd.ads.lab11.lab11app.service.AppointmentService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

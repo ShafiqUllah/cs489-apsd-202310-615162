@@ -2,6 +2,9 @@ package miu.edu.apsd.ads.lab11.lab11app;
 
 import jakarta.annotation.PostConstruct;
 import lombok.AllArgsConstructor;
+import miu.edu.apsd.ads.lab11.lab11app.model.Role;
+import miu.edu.apsd.ads.lab11.lab11app.model.User;
+import miu.edu.apsd.ads.lab11.lab11app.repository.RoleRepository;
 import miu.edu.apsd.ads.lab11.lab11app.repository.UserRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

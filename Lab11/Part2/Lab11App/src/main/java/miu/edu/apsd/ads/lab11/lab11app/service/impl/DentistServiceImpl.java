@@ -1,8 +1,9 @@
 package miu.edu.apsd.ads.lab11.lab11app.service.impl;
 
-import edu.miu.apsd.ads.lab9.model.Dentist;
-import edu.miu.apsd.ads.lab9.repository.DentistRepository;
-import edu.miu.apsd.ads.lab9.service.DentistService;
+
+import miu.edu.apsd.ads.lab11.lab11app.model.Dentist;
+import miu.edu.apsd.ads.lab11.lab11app.repository.DentistRepository;
+import miu.edu.apsd.ads.lab11.lab11app.service.DentistService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

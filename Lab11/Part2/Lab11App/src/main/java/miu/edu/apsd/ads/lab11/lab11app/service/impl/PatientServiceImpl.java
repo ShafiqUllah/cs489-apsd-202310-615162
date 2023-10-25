@@ -1,12 +1,13 @@
 package miu.edu.apsd.ads.lab11.lab11app.service.impl;
 
-import edu.miu.apsd.ads.lab9.dto.address.AddressResponse;
-import edu.miu.apsd.ads.lab9.dto.patient.PatientResponseWithAddress;
-import edu.miu.apsd.ads.lab9.exception.PatientNotFoundException;
-import edu.miu.apsd.ads.lab9.model.Patient;
-import edu.miu.apsd.ads.lab9.repository.AddressRepository;
-import edu.miu.apsd.ads.lab9.repository.PatientRepository;
-import edu.miu.apsd.ads.lab9.service.PatientService;
+
+import miu.edu.apsd.ads.lab11.lab11app.dto.address.AddressResponse;
+import miu.edu.apsd.ads.lab11.lab11app.dto.patient.PatientResponseWithAddress;
+import miu.edu.apsd.ads.lab11.lab11app.exception.PatientNotFoundException;
+import miu.edu.apsd.ads.lab11.lab11app.model.Patient;
+import miu.edu.apsd.ads.lab11.lab11app.repository.AddressRepository;
+import miu.edu.apsd.ads.lab11.lab11app.repository.PatientRepository;
+import miu.edu.apsd.ads.lab11.lab11app.service.PatientService;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
