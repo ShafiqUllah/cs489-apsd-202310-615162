@@ -3,6 +3,7 @@ package miu.edu.apsd.ads.lab11.lab11app.controller;
 
 import jakarta.validation.Valid;
 import miu.edu.apsd.ads.lab11.lab11app.dto.patient.PatientResponseWithAddress;
+import miu.edu.apsd.ads.lab11.lab11app.exception.PatientNotFoundException;
 import miu.edu.apsd.ads.lab11.lab11app.model.Patient;
 import miu.edu.apsd.ads.lab11.lab11app.service.PatientService;
 import org.springframework.http.HttpStatus;
